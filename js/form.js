@@ -18,13 +18,8 @@ var setAllItems = function(){
         					fname											: $("input[name='firstname']").val(),
         					lname 											: $("input[name='lastname']").val(),
         					email 											: $("input[name='email']").val(),
-									phone											: $("input[name='phone']").val(),
-        					job														: $("select[name='job']").val(),
-        					primeuse 								: $("select[name='primeuse']").val(),
-									cd														 	: $("input[name='cd_catalogue']").attr('checked'),
-        					paper											 	: $("input[name='paper_catalogue']").attr('checked'),
-        					priceDeals								: $("input[name='price_deals']").attr('checked'),
-									industryInfo						 	: $("input[name='industry_info']").attr('checked')
+							phone											: $("input[name='phone']").val(),
+							priceDeals										: $("input[name='price_deals']").attr('checked'),
 								};
 						
 								// turn data into JSON string
